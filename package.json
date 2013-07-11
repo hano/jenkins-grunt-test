@@ -1,0 +1,11 @@
+{
+  "name": "grunt_test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-espresso": "~0.1.0"
+  },
+  "devDependencies": {}
+}
