@@ -1,3 +1,3 @@
 #npm install -g grunt-cli
-npm install
-grunt --no-color
+#npm install
+#grunt --no-color
