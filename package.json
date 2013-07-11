@@ -1,5 +1,6 @@
 {
-  "name": "grunt_test",
+  "name": "grunt espresso stuff",
+  "appName": "jgt",
   "version": "0.0.0",
   "description": "",
   "main": "Gruntfile.js",

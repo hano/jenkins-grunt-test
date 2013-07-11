@@ -4,7 +4,12 @@ module.exports = function (grunt) {
 
     // Project configuration.
     grunt.initConfig({
-     
+		pkg: grunt.file.readJSON('package.json'),
+    	espresso: {
+			options: {
+				pathToApp: '<%= pkg.appName %>'
+			}			
+		}
     });
 
     // Load the plugin that provides the "uglify" task.
@@ -12,5 +17,6 @@ module.exports = function (grunt) {
 
     // Default task(s).
     grunt.registerTask('default', ['espresso']);
+
 
 };
